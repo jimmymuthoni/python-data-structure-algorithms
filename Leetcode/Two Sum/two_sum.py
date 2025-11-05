@@ -6,7 +6,7 @@ class Solution:
             difference = target - num
             if difference in hash_map:
                 return[hash_map[difference],i]
-            hash_map[num] = i    
+            hash_map[num] = i
 if __name__ == "__main__":
     solution = Solution()
-    print(solution.two_sum([2,7,11,15],22))
+    print(solution.two_sum([2,7,11,15],20))
