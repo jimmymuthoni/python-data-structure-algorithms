@@ -6,4 +6,4 @@ Given an integer array nums, return true if any value appers at least twice in t
 - time complexity: O(n)
 - space complexity: O(n)
 
-The idea is to implement set since it only store distict values. This reduces time timplexity from 0(n^2) if we dicided to use brute force and O(nlogn) if we decied frist to compare adjacent values to O(n).
+The idea is to implement set since it only store distict values. This reduces time timplexity from 0(n^2) if we dicided to use brute force and O(nlogn) if we decied frist to compare adjacent values to O(n)
