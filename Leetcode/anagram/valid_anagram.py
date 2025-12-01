@@ -12,7 +12,6 @@ class Solution:
         freq[index] -= 1
         if freq[index] < 0:
             return False
-
     return True
 
 if __name__ == "__main":
