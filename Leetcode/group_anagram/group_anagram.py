@@ -11,7 +11,7 @@ class Solution:
                 count[ord(c) - ord('a')] += 1
             
             key_part = []
-            
+
             for num in count:
                 key_part.append("#")
                 key_part.append(str(num))
@@ -26,5 +26,14 @@ class Solution:
 if __name__ == "__main__":
     solution = Solution()
     print(solution.group_anagram(['eat','tea','tan','ate','nat','bat']))
+
+
+"""
+Tme complexity; O(N*K)
+ - N: number of drings
+ -K: average length of each string
+
+Space complexity: O(N*K)
+"""
             
         
